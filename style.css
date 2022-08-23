@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto Serif", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.header {
+    background-color: #1f2937;
+    text-align: center;
+    font-weight: bolder;
+    color: #F9FAF8;
+    display: flex;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.header-links {
+    margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topbar {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.left-text {
+    padding: 20px;
+}
+.hero-text {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;;
+}
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
