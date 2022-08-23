@@ -15,12 +15,22 @@ body {
     color: #F9FAF8;
     display: flex;
     font-size: 24px;
+    align-items: center;
 }
 
 .header-links {
     margin-left: auto;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 10px;
 }
 
 .topbar {
@@ -75,7 +85,10 @@ img {
     align-items: center;
     padding: 40px;
 }
-
+.randinfoheader {
+    font-size: 32px;
+    font-weight: bold;
+}
 .panels {
     display: flex;
     justify-content: space-around;
@@ -88,6 +101,7 @@ img {
     text-align: center;
     gap: 10px;
     margin: 10px;
+    color: #323233;
 }
 
 .panel-img {
